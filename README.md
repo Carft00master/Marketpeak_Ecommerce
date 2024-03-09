@@ -1,0 +1,10 @@
+I fiest created a directory named "Marketpeak_Ecommerce", and then I navigated to the directory and started a git repository.
+Then I downloaded the website template and extracted it to the directory, though I wanted to use the CL to extract this to the directory but I lazily used the GUI to do this, fo this I apologize. I do not know how to customize a website so I did no changes on the site.
+I staged and added my website template to the repository and then set my git global config, after this I pushed what I have done so far to my online git repo successfully
+Now, to push the local repo online gave me quite an issue as I discovered that I had to have a private key which github will provide, and we were supposed to use this key instead of a password, so it was quite an easy struggle but a struggle nonetheless.
+After this, the AWS part was actually really easy to accomplish as we have been mentored into this before. And so after connecting to the AWS server and cloning my online repo to the server it was time install the web server.
+This was kind of a big issue or was almost a big issue as my AWS server did not have the yum packager manager installed and I did not know as of then, so I just used another package manager I learnt from the lessons and that was the 'apt' package manager, though the package manager uses "apache2" as the web server package name and not "httpd" but I got over that hurdle quickly.
+One interesting I learnt was learning the root folder that hosts web servers which is /var/www/html, and so after I had hosted the web server, I met an issue which was seeing my website on the browser as it was not coming up, and so I needed the help of a support agent who told me to add port 80 to my EC2 instance and then I could run it on my browser.
+The other stages were not really a process I did as I did not really make any changes to the website template as I do not have any website building knowledge. But I still ran through the process and once momre pushed the local repo online to my github after making a pull request.
+Thank you, that is all from me.
+Prosper Anukposi
